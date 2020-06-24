@@ -1,0 +1,48 @@
+.main {
+  height: 100vh;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.map-container {
+  height: 500px;
+}
+
+#map {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.chart-container {
+  height: 300px;
+}
+
+.chart-container .col {
+  background-color: #eff2f6;
+  border-radius: 12px;
+}
+.linear-chart {
+  height: 100%;
+  margin-right: 15px;
+}
+
+.title-container h1 {
+  color: red;
+  margin-bottom: 0;
+}
+
+.title-container h4 {
+  text-transform: uppercase;
+  color: #eff2f6;
+}
+
+.card-body {
+  background-color: #eff2f6;
+}
+
+.pie-chart {
+  height: 100%;
+}

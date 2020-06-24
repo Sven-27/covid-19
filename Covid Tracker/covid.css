@@ -1,0 +1,123 @@
+body {
+  width: 100%;
+  margin: 0px;
+  --scrollbarBG: #cfd8dc;
+  --thumbBG: #90a4ae;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+.nav {
+  background-image: url("images/bacterien.jpg");
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.map-info {
+  background-color: bisque;
+  height: 400px;
+}
+
+.data-info {
+  background-color: rgb(190, 186, 186);
+  height: 1500px;
+  display: flex;
+  justify-content: center;
+}
+
+thead {
+  display: table;
+}
+
+tbody {
+  display: block;
+  max-width: 100%;
+  height: 91%;
+  overflow-y: scroll;
+}
+
+th,
+td {
+  width: 100%;
+}
+
+.country-data {
+  position: absolute;
+  margin-top: 20px;
+  max-width: 50%;
+  border-radius: 5px;
+  height: 550px;
+  overflow: hidden;
+}
+
+.info-flag img {
+  border-radius: 5px;
+  width: 100px;
+  margin-bottom: 2px;
+}
+
+.info-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: darkgoldenrod;
+}
+
+.info-container {
+  width: 150px;
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.info-flag {
+  height: 80px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.info-confirmed,
+.info-recovered,
+.info-deaths {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+#myChart {
+  position: absolute;
+  height: 300px;
+  width: 50%;
+  margin: auto;
+}
+.chart-data {
+  width: 35%;
+}
+
+#pie-chart {
+  position: absolute;
+  height: 400px;
+  width: 50%;
+  margin: auto;
+}
